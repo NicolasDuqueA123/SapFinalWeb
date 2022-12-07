@@ -18,7 +18,7 @@ i{
     grid-template-rows: repeat(8,auto);
 }
 #base{
-    width: 98.7vw;
+    width: 99.1vw;
     height: 70vh;
     grid-column: 1/9;
     grid-row: 1/9;
@@ -44,16 +44,13 @@ i{
     display: flex;
     justify-content: space-between;
     background-color: white;
-    width: 30vw;
+    width: 22vw;
     padding: 5px;
     border-radius: 10px;
 }
 #barrabusqueda{
     border: none;
 }
-/*#botonbusqueda{
-    margin-left: 8rem;
-}*/
 .searchbar{
     grid-column: 4/6;
     grid-row: 3/4;   
@@ -70,14 +67,6 @@ i{
 #images{
     width: 99vw;
 }
-/*.paws{
-    display: flex;
-    margin-left: 10px;
-    margin-right: 10px;
+footer{
+    background-color: navy;
 }
-.paws p{
-    width: 50vw;
-}
-.paws img{
-    width: 30vw;
-}*/
