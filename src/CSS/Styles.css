@@ -8,10 +8,6 @@ i{
     font-size: 2rem;
     color: black;
 }
-/*#logo{
-    width: 4rem;
-    height: auto;
-}*/
 .contenedor{
     display: grid;
     grid-template-columns: repeat(8,1fr);
@@ -23,15 +19,6 @@ i{
     grid-column: 1/9;
     grid-row: 1/9;
 }
-.search{
-    z-index: 7;
-    grid-column: 3/5;
-    grid-row: 2/8;
-    width: 28vw;
-}
-#magnifier{
-    width: 25%;
-}
 .texto{
     z-index: 7;
     font-size: 2rem;
@@ -39,30 +26,22 @@ i{
     color: white;
     grid-column: 4/7;
     grid-row: 4/6;
+    padding-left: 4rem;
 }
 .busqueda{
     display: flex;
     justify-content: space-between;
     background-color: white;
-    width: 35rem;
+    width: 20vw;
     padding: 5px;
     border-radius: 10px;
 }
 #barrabusqueda{
     border: none;
 }
-.searchbar{
-    grid-column: 4/6;
-    grid-row: 3/4;   
-}
 .container{
     display: flex;
     width: 80vw;   
-}
-.div1{
-    width: 40px;
-    height: 100px; 
-    background-color: black;
 }
 #images{
     width: 99vw;
