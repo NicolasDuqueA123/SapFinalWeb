@@ -31,7 +31,6 @@ i{
 .busqueda{
     display: flex;
     justify-content: space-between;
-    background-color: white;
     width: 20vw;
     padding: 5px;
     border-radius: 10px;
