@@ -67,6 +67,9 @@ i{
     height: 100px; 
     background-color: black;
 }
+#images{
+    width: 99vw;
+}
 /*.paws{
     display: flex;
     margin-left: 10px;
